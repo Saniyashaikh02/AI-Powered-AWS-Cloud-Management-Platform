@@ -1,0 +1,28 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background: #020617;
+  color: white;
+  position: fixed;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  margin-bottom: 30px;
+}
+
+.sidebar div {
+  margin: 15px 0;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.sidebar div:hover {
+  background: #1e293b;
+}
+.sidebar div.active {
+  background: #1e293b;
+  border-left: 4px solid #22c55e;
+}
